@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+  }
+  
+  .card-container {
+    max-width: 15vw;
+    text-align: center;
+  }
+  
+  .card {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+  }
+  .text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+  }
+
+  .attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 480px) {
+    .card-container {
+      max-width: 54vw;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .card-container {
+      max-width: 60vw;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+      max-width: 28vw;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .card-container {
+      max-width: 20vw;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    .card-container {
+      max-width: 15vw;
+    }
+  }
+
+  
